@@ -1,0 +1,21 @@
+{
+  "name": "addequatte/json-serializer",
+  "description": "Simply JsonSerializable interface realization to convert models to json",
+  "type": "library",
+  "licence": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Addequatte\\JsonSerializer\\": "lib/"
+    }
+  },
+  "authors": [
+    {
+      "name": "addequatte",
+      "email": "addequatte@gmail.com"
+    }
+  ]
+}
