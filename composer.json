@@ -2,7 +2,7 @@
   "name": "addequatte/json-serializer",
   "description": "Simply JsonSerializable interface realization to convert models to json",
   "type": "library",
-  "licence": "MIT",
+  "license": "MIT",
   "minimum-stability": "dev",
   "require": {
     "php": ">=8.0.0"
