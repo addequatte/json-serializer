@@ -29,6 +29,14 @@ class JsonSerializeHandler
     }
 
     /**
+     * @param ProcessorInterface|null $processor
+     */
+    public function setProcessor(?ProcessorInterface $processor): void
+    {
+        $this->processor = $processor;
+    }
+
+    /**
      * @param mixed $data
      * @return array
      */
